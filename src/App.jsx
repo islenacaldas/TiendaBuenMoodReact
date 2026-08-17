@@ -27,21 +27,21 @@ const productos = [
   },
   {
     id: 4,
-    imagen: "/imagenes/img1.png",
+    imagen: "/imagenes/img4.png",
     titulo: "Camiseta deportiva",
     descripcion: "Camiseta ligera y fresca, ideal para hacer ejercicio, entrenar o disfrutar de un look deportivo casual.",
     precio: 59900
   },
   {
     id: 5,
-    imagen: "/imagenes/img2.png",
+    imagen: "/imagenes/img5.png",
     titulo: "Short deportivo",
     descripcion: "Short cómodo y práctico que permite libertad de movimiento durante tus entrenamientos y actividades deportivas.",
     precio: 69900
   },
    {
     id: 6,
-    imagen: "/imagenes/img2.png",
+    imagen: "/imagenes/img6.png",
     titulo: "Mancuernas",
     descripcion: "Mancuernas de polietilano, pensadas exclusivamente para ti",
     precio: 90000
@@ -49,10 +49,9 @@ const productos = [
 ];
 
 
-
 function App(){
-  return <div className='App'>
-    <h1>hello bebis</h1>
+  return <div className='contenedor-productos'>
+    <h1>Buen mood tienda</h1>
    {
       productos.map (
         producto=>(<ProductoCard
@@ -60,13 +59,15 @@ function App(){
         imagen={producto.imagen}
         titulo={producto.titulo}
         descripcion= {producto.descripcion}
-        precio={"$"+producto.precio}
+        precio={producto.precio}
+        
         />)
+        
       )
     } 
-      <ProductoCard/>
   
   </div>
 }
 
 export default App
+

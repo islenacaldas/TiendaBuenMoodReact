@@ -8,7 +8,10 @@ function ProductoCard(props){
            <div className="texto-producto">
             <p className="producto">{props.titulo}</p>
             <p className="descripcion-producto">{props.descripcion}</p>
-            <p className="precio">{props.precio}</p>
+            <p className="precio">{props.precio.toLocaleString("es-CO")}</p>
+           <button className="boton-carrito">
+             🛒 Añadir al carrito
+           </button>
            </div>
            </div>
     )
