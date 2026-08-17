@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 
 
 function ProductoCard(props){
@@ -8,6 +8,7 @@ function ProductoCard(props){
            <div className="texto-producto">
             <p className="producto">{props.titulo}</p>
             <p className="descripcion-producto">{props.descripcion}</p>
+            <p className="precio">{props.precio}</p>
            </div>
            </div>
     )

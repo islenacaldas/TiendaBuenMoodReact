@@ -1,0 +1,35 @@
+.contenedor-producto {
+  width: 1000px;
+  height: 370px;
+  margin: 10px 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  box-shadow: #343434 5px 5px 10px;
+}
+
+.imagen-producto {
+  height: 100%;
+  width: auto;
+}
+
+.texto-producto {
+  text-align: center;
+  padding: 40px;
+  font-family: sans-serif;
+  line-height: 1.3rem;
+  font-size: 0.8rem;
+  color: black;
+}
+
+.producto {
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-style: italic;
+  padding-bottom: 30px;
+}
+
+.descripcion-producto {
+  text-align: justify;
+}
