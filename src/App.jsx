@@ -50,24 +50,27 @@ const productos = [
 
 
 function App(){
-  return <div className='contenedor-productos'>
-    <h1>Buen mood tienda</h1>
-   {
-      productos.map (
-        producto=>(<ProductoCard
-        key ={producto.id}
-        imagen={producto.imagen}
-        titulo={producto.titulo}
-        descripcion= {producto.descripcion}
-        precio={producto.precio}
-        
-        />)
-        
-      )
-    } 
-  
-  </div>
+  return (
+    <>
+      <h1>Buen mood tienda</h1>
+
+      <div className="contenedor-productos">
+        {
+          productos.map(
+            producto => (
+              <ProductoCard
+                key={producto.id}
+                imagen={producto.imagen}
+                titulo={producto.titulo}
+                descripcion={producto.descripcion}
+                precio={producto.precio}
+              />
+            )
+          )
+        }
+      </div>
+    </>
+  )
 }
 
 export default App
-

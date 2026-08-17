@@ -63,3 +63,8 @@
   gap: 20px;
   padding: 30px;
 }
+h1 {
+  text-align: center;
+  margin: 30px 0;
+  color: black;
+}
