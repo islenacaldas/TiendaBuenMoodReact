@@ -38,6 +38,13 @@ const productos = [
     titulo: "Short deportivo",
     descripcion: "Short cómodo y práctico que permite libertad de movimiento durante tus entrenamientos y actividades deportivas.",
     precio: 69900
+  },
+   {
+    id: 6,
+    imagen: "/imagenes/img2.png",
+    titulo: "Mancuernas",
+    descripcion: "Mancuernas de polietilano, pensadas exclusivamente para ti",
+    precio: 90000
   }
 ];
 
